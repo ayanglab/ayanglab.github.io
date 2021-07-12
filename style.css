@@ -409,8 +409,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Oleo Script";
 	padding-top:1px;
 	padding-bottom:1px;
-	font-size:58px;
-	line-height:60px;
+	font-size:68px;
+	line-height:68px;
 }
 .p-style{
 	font-size:21px;
@@ -479,6 +479,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-27-style{
 	width:243px;
 }
+.navbar-brand img{
+	width:68px;
+	height:68px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -501,12 +505,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#FEFFFF!important;
 }
 .ltc-white:hover{
-	color:#cbcccc!important;
-}
-.ltc-white-2{
-	color:rgba(255,255,255,0.68)!important;
-}
-.ltc-white-2:hover{
 	color:#cbcccc!important;
 }
 
