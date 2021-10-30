@@ -576,6 +576,53 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .card-body-7-style{
 	height:427px;
 }
+.feat-card-icon{
+	width:50px;
+	background:linear-gradient(0deg, #9809FF 0%, #8B45FD 100%);
+	border-radius:10px 10px 10px 10px;
+}
+.feat-card-icon-pos{
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:-25px;
+}
+.feat-card{
+	margin-bottom:80px;
+	padding:10px 10px 10px 10px;
+	border-radius:20px 20px 20px 20px;
+}
+.img-cmih-whi-style{
+	width:196px;
+}
+.img-30-style{
+	width:52px;
+}
+.img-thiro-style{
+	width:267px;
+}
+.img-radiomi-style{
+	width:209px;
+}
+.img-32-thiro-style{
+	width:246px;
+}
+.img-34-style{
+	width:60px;
+}
+.img-31458-style{
+	width:172px;
+}
+.img-35-style{
+	width:238px;
+}
+.p-29-style{
+	width:100%;
+}
+.btn-style{
+	width:68.91%;
+	border-radius:25px 25px 25px 25px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -813,6 +860,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.mt-md-0{
 	}
 	.mt-md-4{
+	}
+	
+}
+
+@media (max-width: 767px){
+	.feat-card{
+		margin-bottom:60px;
 	}
 	
 }

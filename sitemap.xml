@@ -110,6 +110,38 @@
 	<image:title>CO</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/cmih-white.png</image:loc>
+	<image:title>cmih white</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Radiomics.svg</image:loc>
+	<image:title>Radiomics</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MC2.png</image:loc>
+	<image:title>MC2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/QUIBIM.png</image:loc>
+	<image:title>QUIBIM</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Thirona.png</image:loc>
+	<image:title>Thirona</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/CDISC.svg</image:loc>
+	<image:title>CDISC</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/GE.svg</image:loc>
+	<image:title>GE</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Siemens_Healthineers_logo.svg.png</image:loc>
+	<image:title>Siemens_Healthineers_logo</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/20200547%20Logo%20Chaimeleon%20DEF.png</image:loc>
 	<image:title>placeholder image</image:title>
 	</image:image>
