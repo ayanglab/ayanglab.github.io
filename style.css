@@ -530,7 +530,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .img-33-style{
-	width:248px;
+	width:255px;
 }
 .img-32-style{
 	width:311px;
@@ -550,6 +550,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .card-body-style{
 	width:100%;
+}
+.card-header-style{
+	height:119px;
+}
+.img-nvidi-style{
+	width:267px;
+	border-radius:0px 0px 0px 0px;
+}
+.img-44-style{
+	width:257px;
+}
+.img-43-style{
+	width:160px;
+}
+.img-42-style{
+	width:115px;
+}
+.card-footer-style{
+	height:74px;
+}
+.card-body-bloc-12-style{
+	height:451px;
+}
+.card-body-7-style{
+	height:427px;
 }
 
 /* = Colour

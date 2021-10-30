@@ -94,6 +94,22 @@
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/YY.svg</image:loc>
+	<image:title>YY</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Avatar_ML.svg</image:loc>
+	<image:title>Avatar_ML</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/JH_MRes.svg</image:loc>
+	<image:title>JH_MRes</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/CO.svg</image:loc>
+	<image:title>CO</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/20200547%20Logo%20Chaimeleon%20DEF.png</image:loc>
 	<image:title>placeholder image</image:title>
 	</image:image>
@@ -112,6 +128,14 @@
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/SABER.png</image:loc>
 	<image:title>SABER</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MRC.png</image:loc>
+	<image:title>MRC</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Nvidia.jpg</image:loc>
+	<image:title>Nvidia</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/Hiring.png</image:loc>
@@ -148,6 +172,22 @@
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/Animal_Free.webp</image:loc>
 	<image:title>Animal_Free</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MRC2.png</image:loc>
+	<image:title>MRC2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Nvidia2.png</image:loc>
+	<image:title>Nvidia2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MSIT.png</image:loc>
+	<image:title>MSIT</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/NRF.png</image:loc>
+	<image:title>NRF</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/</image:loc>
