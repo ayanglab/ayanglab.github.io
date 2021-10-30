@@ -281,6 +281,10 @@ button{
 	font-size:30px!important;
 }
 
+/*  Image Protection */
+.img-protected{
+	-webkit-touch-callout: none;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -527,6 +531,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .navbar-brand img{
 	width:68px;
 	height:68px;
+}
+.h5-style{
+	width:100%;
+}
+.card-body-style{
+	width:100%;
 }
 
 /* = Colour
