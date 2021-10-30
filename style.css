@@ -266,6 +266,11 @@ button{
 	outline: none!important;
 }
 
+.btn-style-none,.btn-style-none:hover,.btn-style-none:active,.btn-style-none:focus{
+	background:none;
+	box-shadow: none;
+	padding:0;
+}
 .a-block{
 	width:100%;
 	text-align:left;
@@ -443,6 +448,14 @@ button{
 }
 .blocsapp-device-watch.watch-white{
 	background-image:url("img/Apple-watch-white.png");
+}
+
+.close{
+	color:#000;
+	opacity:0.5;
+}
+.close:hover{
+	opacity:1;
 }
 
 /* = Custom Styling
