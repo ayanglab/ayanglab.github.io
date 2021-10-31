@@ -158,7 +158,7 @@
 	<image:title>BHF_Logo_Lockup_Vertical_BHF_Red_RGB@4x</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/SABER.png</image:loc>
+	<image:loc>https://www.yanglab.fyi/img/SABER_T.png</image:loc>
 	<image:title>SABER</image:title>
 	</image:image>
 	<image:image>
@@ -166,7 +166,7 @@
 	<image:title>MRC</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/Nvidia.jpg</image:loc>
+	<image:loc>https://www.yanglab.fyi/img/Nvidia_T.png</image:loc>
 	<image:title>Nvidia</image:title>
 	</image:image>
 	<image:image>

@@ -570,7 +570,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .card-header-style{
-	height:119px;
+	height:96px;
 }
 .img-nvidi-style{
 	width:267px;
@@ -640,6 +640,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-style{
 	width:68.91%;
 	border-radius:25px 25px 25px 25px;
+}
+.img-bloc-14-style{
+	width:182px;
 }
 
 /* = Colour
