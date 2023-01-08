@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.yanglab.fyi</loc>
-	<lastmod>2021-10-31</lastmod>
+	<lastmod>2023-01-08</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -34,6 +34,26 @@
 	<image:title>LGEMRISegmentation</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MICCAI_2022_XDX.png</image:loc>
+	<image:title>MICCAI 2022 XDX</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MICCAI_2022_JHH.png</image:loc>
+	<image:title>slide 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MICCAI_2022_MT.png</image:loc>
+	<image:title>slide 3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MIUA_2022_HL.png</image:loc>
+	<image:title>MIUA_2022_HL</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/EMBC_2022_JHH.png</image:loc>
+	<image:title>EMBC_2022_JHH</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/RBHT_Showcase_Poster_GY_2019.png</image:loc>
 	<image:title>RBHT_Showcase_Poster_GY_2019</image:title>
 	</image:image>
@@ -44,6 +64,22 @@
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/Avatar_GY.svg</image:loc>
 	<image:title>Guang Yang</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/YY2.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/FF.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/SZ.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/JJH.svg</image:loc>
+	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/YN.svg</image:loc>
@@ -62,6 +98,18 @@
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/YZ.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/FWW.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/ZMN.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/MT.svg</image:loc>
 	<image:title>placeholder user</image:title>
 	</image:image>
@@ -74,19 +122,27 @@
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/YY2.svg</image:loc>
+	<image:loc>https://www.yanglab.fyi/img/MKH.svg</image:loc>
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/YZ.svg</image:loc>
+	<image:loc>https://www.yanglab.fyi/img/SYW.svg</image:loc>
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/YT.svg</image:loc>
+	<image:loc>https://www.yanglab.fyi/img/RS.svg</image:loc>
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/ZY2.svg</image:loc>
+	<image:loc>https://www.yanglab.fyi/img/LCW.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/CWX.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/DTZ.svg</image:loc>
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
@@ -94,12 +150,36 @@
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/ZY2.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/YY.svg</image:loc>
-	<image:title>YY</image:title>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/HL.svg</image:loc>
+	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/Avatar_ML.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MG.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/ZY.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/YZ.svg</image:loc>
 	<image:title>Avatar_ML</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/YT.svg</image:loc>
+	<image:title>YY</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/JH_MRes.svg</image:loc>
@@ -108,6 +188,26 @@
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/CO.svg</image:loc>
 	<image:title>CO</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/YFY.svg</image:loc>
+	<image:title>JH_MRes</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/BYS.svg</image:loc>
+	<image:title>JH_MRes</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/SL.svg</image:loc>
+	<image:title>JH_MRes</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/JR.svg</image:loc>
+	<image:title>JH_MRes</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MY.svg</image:loc>
+	<image:title>JH_MRes</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/cmih-white.png</image:loc>
@@ -152,6 +252,22 @@
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/Dragon_logo_v_final.png</image:loc>
 	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/IC_BRC.png</image:loc>
+	<image:title>IC_BRC</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/The_Royal_Society_logo.png</image:loc>
+	<image:title>The_Royal_Society_logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/NTU_Logo.png</image:loc>
+	<image:title>NTU_Logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/NRF.png</image:loc>
+	<image:title>NRF</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/BHF_Logo_Lockup_Vertical_BHF_Red_RGB@4x.png</image:loc>
@@ -218,8 +334,44 @@
 	<image:title>MSIT</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/NRF.png</image:loc>
-	<image:title>NRF</image:title>
+	<image:loc>https://www.yanglab.fyi/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.yanglab.fyi/research.html</loc>
+	<lastmod>2023-01-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/diffusion-mri-also-referred-to-as-diffusion-tensor-imaging-or-dti-of-the-human-brain-CUF29010.jpg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/csm_Final_figure_without_text_deeplearning_7852cbf6d0.jpg</image:loc>
+	<image:title>csm_Final_figure_without_text_deeplearning_7852cbf6d0</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.yanglab.fyi/imaging.html</loc>
+	<lastmod>2023-01-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Xnip2021-12-11_18-54-34.png</image:loc>
+	<image:title>placeholder image-wide</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/</image:loc>

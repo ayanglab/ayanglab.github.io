@@ -240,6 +240,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -251,6 +254,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 .mg-lg{
 	margin-top:10px;
 	margin-bottom:40px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -286,6 +301,25 @@ button{
 	font-size:30px!important;
 }
 
+/* Image Frame */
+.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
+	background:#FFF;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	padding:4px;
+}
+.img-frame{
+	border-radius:3px;
+}
+.img-frame-md,.img-frame-lg{
+	border-radius:6px;
+}
+.img-frame-md,.img-frame-rd-md{
+	padding:8px;
+}
+.img-frame-lg,.img-frame-rd-lg{
+	padding:14px;
+}
 /*  Image Protection */
 .img-protected{
 	-webkit-touch-callout: none;
@@ -644,6 +678,57 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-bloc-14-style{
 	width:182px;
 }
+.img-bloc-24-style{
+	width:563px;
+	border-radius:50px 50px 50px 50px;
+}
+.img-bloc-26-style{
+	width:529px;
+	border-radius:81px 81px 81px 81px;
+}
+.img-58-style{
+	width:586px;
+	border-radius:35px 35px 35px 35px;
+}
+.link-bloc-5-style{
+	text-decoration:none;
+}
+.link-yifan-yuan-style{
+	text-decoration:none;
+}
+.link-yinzhe-wu-style{
+	text-decoration:none;
+}
+.link-april-wu-style{
+	text-decoration:none;
+}
+.link-hao-li-style{
+	text-decoration:none;
+}
+.link-weixun-luo-style{
+	text-decoration:none;
+}
+.link-danting-zhang-style{
+	text-decoration:none;
+}
+.link-michael-yeung-style{
+	text-decoration:none;
+}
+.link-0-style{
+	text-decoration:none;
+}
+.img-61-style{
+	width:256px;
+}
+.img-82-style{
+	width:140px;
+}
+.img-ntu-lo-style{
+	width:279px;
+}
+.img-ic-b-style{
+	width:364px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -795,6 +880,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .page-scroll-progress-bar.bottom-edge{
 	top: initial;
 	bottom: 0;
+}
+/* WP Widget Styling */.widget-zone ul{
+	list-style: none;
+	padding: 0;
+}
+.code-embed{
+	color:#000;
 }
 
 
