@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.yanglab.fyi</loc>
-	<lastmod>2023-01-08</lastmod>
+	<lastmod>2023-01-14</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -52,6 +52,50 @@
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/EMBC_2022_JHH.png</image:loc>
 	<image:title>EMBC_2022_JHH</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Book1.png</image:loc>
+	<image:title>TensorLayer</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Book2.png</image:loc>
+	<image:title>STCOM2017</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/Book3.png</image:loc>
+	<image:title>MIUA2022</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/BookC1.png</image:loc>
+	<image:title>BookC1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/BookC1_2.png</image:loc>
+	<image:title>BookC1_2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/BookC2_2.png</image:loc>
+	<image:title>BookC2_2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/BookC2.png</image:loc>
+	<image:title>BookC2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/BookC3.png</image:loc>
+	<image:title>BookC3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/BookC3_2.png</image:loc>
+	<image:title>BookC3_2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/proceedings_of_the_ieee_cover_feb_2022.png</image:loc>
+	<image:title>proceedings_of_the_ieee_cover_feb_2022</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/MP.png</image:loc>
+	<image:title>MP</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/RBHT_Showcase_Poster_GY_2019.png</image:loc>
@@ -344,7 +388,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/research.html</loc>
-	<lastmod>2023-01-08</lastmod>
+	<lastmod>2023-01-14</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -366,7 +410,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/imaging.html</loc>
-	<lastmod>2023-01-08</lastmod>
+	<lastmod>2023-01-14</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
