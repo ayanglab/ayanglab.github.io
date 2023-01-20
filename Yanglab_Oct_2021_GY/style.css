@@ -1,0 +1,1016 @@
+/*-----------------------------------------------------------------------------------
+	YangLab
+	About: Website for AYL
+	Author: Guang Yang
+	Version: 1.0
+	Built with Blocs
+-----------------------------------------------------------------------------------*/
+body{
+	margin:0;
+	padding:0;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
+a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
+a:hover{text-decoration: none; cursor:pointer;}
+
+
+/* Preloader */
+
+.page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;animation-name: preloader-fade;animation-delay: 2s;animation-duration: 0.5s;animation-fill-mode: both;}
+.preloader-complete{animation-delay:0.1s;}
+@keyframes preloader-fade {0% {opacity: 1;visibility: visible;}100% {opacity: 0;visibility: hidden;}}
+
+/* = Blocs
+-------------------------------------------------------------- */
+
+.bloc{
+	width:100%;
+	clear:both;
+	background: 50% 50% no-repeat;
+	padding:0 20px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position:relative;
+	display:flex;
+}
+.bloc .container{
+	padding-left:0;
+	padding-right:0;
+	position:relative;
+}
+
+
+/* Sizes */
+
+.bloc-lg{
+	padding:100px 20px;
+}
+.bloc-md{
+	padding:50px 20px;
+}
+.bloc-sm{
+	padding:20px;
+}
+
+/* = Full Screen Blocs 
+-------------------------------------------------------------- */
+
+.bloc-fill-screen{
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.bloc-fill-screen > .container{
+	align-self: flex-middle;
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bloc-fill-screen > .container > .row{
+	flex-grow: 1;
+	align-self: center;
+	width:100%;
+}
+.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+	flex-grow: 0;
+}
+.bloc-fill-screen .fill-bloc-top-edge{
+	align-self: flex-start;
+}
+.bloc-fill-screen .fill-bloc-bottom-edge{
+	align-self: flex-end;
+}
+
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .row{
+	margin-left:0;
+	margin-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
+
+/* Dark theme */
+
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.d-bloc button:hover{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
+	border-color:rgba(255,255,255,.9);
+}
+.d-bloc .divider-h span{
+	border-color:rgba(255,255,255,.2);
+}
+.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
+	color:rgba(255,255,255,.6);
+}
+.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
+	color:rgba(255,255,255,1);
+}
+.d-bloc .navbar-toggle .icon-bar{
+	background:rgba(255,255,255,1);
+}
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
+	color:rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
+}
+.d-bloc .card{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover{
+	color:rgba(0,0,0,.7);
+}
+.d-bloc .card icon{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover{
+	color:rgba(0,0,0,1);
+}
+.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
+
+/* Light theme */
+
+.d-bloc .card,.l-bloc{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover,.l-bloc button:hover{
+	color:rgba(0,0,0,.7);
+}
+.l-bloc .icon-round,.l-bloc .icon-square,.l-bloc .icon-rounded,.l-bloc .icon-semi-rounded-a,.l-bloc .icon-semi-rounded-b{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span,.l-bloc .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn,.l-bloc .a-btn,.l-bloc .navbar a,.l-bloc a .icon-sm, .l-bloc a .icon-md, .l-bloc a .icon-lg, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover,.l-bloc .a-btn:hover,.l-bloc .navbar a:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover{
+	color:rgba(0,0,0,1);
+}
+.l-bloc .navbar-toggle .icon-bar{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .btn-wire,.d-bloc .card .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
+
+/* = NavBar
+-------------------------------------------------------------- */
+
+/* = Sticky Nav
+-------------------------------------------------------------- */
+
+.sticky-nav.sticky{
+	position:fixed;
+	top:0;
+	z-index:1000;
+	box-shadow:0 1px 2px rgba(0,0,0,.3);
+	 transition: all .2s ease-out;
+}
+/* Handle Multi Level Navigation */
+.dropdown-menu .dropdown-menu{
+	border:none}
+@media (min-width:576px){
+	
+.navbar-expand-sm .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-sm .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:768px){
+	.navbar-expand-md .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-md .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:992px){
+	.navbar-expand-lg .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-lg .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}
+}
+/* = Bric adjustment margins
+-------------------------------------------------------------- */
+
+.mg-clear{
+	margin:0;
+}
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
+}
+
+/* = Buttons
+-------------------------------------------------------------- */
+
+.btn-d,.btn-d:hover,.btn-d:focus{
+	color:#FFF;
+	background:rgba(0,0,0,.3);
+}
+
+/* Prevent ugly blue glow on chrome and safari */
+button{
+	outline: none!important;
+}
+
+.btn-style-none,.btn-style-none:hover,.btn-style-none:active,.btn-style-none:focus{
+	background:none;
+	box-shadow: none;
+	padding:0;
+}
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
+
+/* = Icons
+-------------------------------------------------------------- */
+.icon-md{
+	font-size:30px!important;
+}
+
+/* Image Frame */
+.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
+	background:#FFF;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	padding:4px;
+}
+.img-frame{
+	border-radius:3px;
+}
+.img-frame-md,.img-frame-lg{
+	border-radius:6px;
+}
+.img-frame-md,.img-frame-rd-md{
+	padding:8px;
+}
+.img-frame-lg,.img-frame-rd-lg{
+	padding:14px;
+}
+/*  Image Protection */
+.img-protected{
+	-webkit-touch-callout: none;
+}
+
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.blockquote{
+	padding:0 20px;
+	border-left:2px solid;
+}
+.blockquote.text-end{
+	border-left:0;
+	border-right:2px solid;
+}
+
+
+/* = Masonary
+-------------------------------------------------------------- */
+.card-columns .card {
+	margin-bottom: 0.75rem;
+}
+@media (min-width: 576px) {
+	.card-columns {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 1.25rem;
+	-moz-column-gap: 1.25rem;
+	column-gap: 1.25rem;
+	orphans: 1;
+	widows: 1;
+}
+.card-columns .card {
+	display: inline-block;
+	width: 100%;
+}
+}
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+	width:100%;
+	display:inline-block;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
+
+
+
+.carousel-nav-icon{
+	fill: none;
+	stroke: #fff;
+	stroke-width: 2px;
+	fill-rule: evenodd;
+	stroke-linecap:round;
+}
+/* Scroll FX */
+.scroll-fx-in-range{
+	will-change: opacity;
+}
+
+
+/* ScrollToTop button */
+
+.scrollToTop{
+	width:36px;
+	height:36px;
+	padding:5px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	opacity:0;
+	z-index:999;
+	transition: all .3s ease-in-out;
+	pointer-events:none;
+}
+.showScrollTop{
+	opacity: 1;
+	pointer-events:all;
+}
+.scroll-to-top-btn-icon{
+	fill: none;
+	stroke: #fff;
+	stroke-width: 2px;
+	fill-rule: evenodd;
+	stroke-linecap:round;
+}
+/* = iPad Devices
+-------------------------------------------------------------- */
+
+.blocsapp-device-ipad{
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	display: block;
+	width:100%;
+	height:auto;
+	padding: 13.4%;
+}
+.blocsapp-device-ipad img{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+.blocsapp-device-ipad .ratio::before{
+	padding-top: 106.25%;
+}
+.blocsapp-device-ipad .ratio{
+	padding-bottom: 25%;
+}
+.blocsapp-device-ipad.ipad-silver{
+	background-image:url("img/Apple-iPad-Air-Silver.png");
+}
+/* = MacBook Devices
+-------------------------------------------------------------- */
+
+.blocsapp-device-mb{
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	display: block;
+	width:100%;
+	height:auto;
+	padding: 3.6% 15% 7.5%;
+}
+.blocsapp-device-mb img{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+.blocsapp-device-mb .ratio::before{
+	padding-top: 56.25%;
+}
+.blocsapp-device-mb .ratio{
+	padding-bottom: 8%;
+}
+/* = MacBook Space Grey
+-------------------------------------------------------------- */
+
+.mb-space-grey{
+	background-image:url("img/Apple-Macbook-Space-Grey.png");
+}
+/* = Watch Devices
+-------------------------------------------------------------- */
+
+.blocsapp-device-watch{
+	background-size: 256px 495px;
+	padding-top:136px;
+	display: block;
+	width:256px;
+	height:495px;
+}
+.blocsapp-device-watch img{
+	width: 182px;
+	height: 232px;
+	margin: 0 auto;
+	display:block;
+	border-radius:30px;
+}
+.blocsapp-device-watch .ratio::before{
+	padding-top: 106.25%;
+}
+.blocsapp-device-watch .ratio{
+	padding-bottom: 12%;
+	width: 70%;
+	right: -15%;
+	border-radius: 14%;
+}
+.blocsapp-device-watch.watch-white{
+	background-image:url("img/Apple-watch-white.png");
+}
+
+.close{
+	color:#000;
+	opacity:0.5;
+}
+.close:hover{
+	opacity:1;
+}
+
+/* = Custom Styling
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+	font-family:"Helvetica";
+}
+.container{
+	max-width:1140px;
+}
+.link-style{
+	font-family:"Oleo Script";
+	padding-top:1px;
+	padding-bottom:1px;
+	font-size:68px;
+	line-height:68px;
+}
+.p-style{
+	font-size:21px;
+	width:100%;
+}
+.carousel-style{
+	width:100%;
+}
+.img-style{
+	width:87px;
+}
+.team-card{
+	min-height:350px;
+}
+.img-guangya-style{
+	width:301px;
+}
+.h3-style{
+	opacity:1.0;
+}
+.img-bloc-9-style{
+	width:267px;
+}
+.img-25-style{
+	width:253px;
+}
+.img-animal-fr-style{
+	width:159px;
+}
+.img-26-style{
+	width:104px;
+}
+.h1-style{
+	font-size:35px;
+}
+.img-36-style{
+	width:266px;
+}
+.img-39-style{
+	width:92px;
+}
+.img-37-style{
+	width:252px;
+}
+.img-38-style{
+	width:267px;
+}
+.img-eu-h2020-lo-style{
+	width:267px;
+}
+.img-bloc-12-style{
+	width:166px;
+}
+.card-style{
+	width:100%;
+}
+.img-33-style{
+	width:255px;
+}
+.img-32-style{
+	width:311px;
+}
+.img-28-style{
+	width:104px;
+}
+.img-27-style{
+	width:243px;
+}
+.navbar-brand img{
+	width:68px;
+	height:68px;
+}
+.h5-style{
+	width:100%;
+}
+.card-body-style{
+	width:100%;
+}
+.card-header-style{
+	height:96px;
+}
+.img-nvidi-style{
+	width:267px;
+	border-radius:0px 0px 0px 0px;
+}
+.img-44-style{
+	width:257px;
+}
+.img-43-style{
+	width:160px;
+}
+.img-42-style{
+	width:115px;
+}
+.card-footer-style{
+	height:74px;
+}
+.card-body-bloc-12-style{
+	height:451px;
+}
+.card-body-7-style{
+	height:427px;
+}
+.feat-card-icon{
+	width:50px;
+	background:linear-gradient(0deg, #9809FF 0%, #8B45FD 100%);
+	border-radius:10px 10px 10px 10px;
+}
+.feat-card-icon-pos{
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:-25px;
+}
+.feat-card{
+	margin-bottom:80px;
+	padding:10px 10px 10px 10px;
+	border-radius:20px 20px 20px 20px;
+}
+.img-cmih-whi-style{
+	width:196px;
+}
+.img-30-style{
+	width:52px;
+}
+.img-thiro-style{
+	width:267px;
+}
+.img-radiomi-style{
+	width:209px;
+}
+.img-32-thiro-style{
+	width:246px;
+}
+.img-34-style{
+	width:60px;
+}
+.img-31458-style{
+	width:172px;
+}
+.img-35-style{
+	width:238px;
+}
+.p-29-style{
+	width:100%;
+}
+.btn-style{
+	width:68.91%;
+	border-radius:25px 25px 25px 25px;
+}
+.img-bloc-14-style{
+	width:182px;
+}
+.img-bloc-24-style{
+	width:563px;
+	border-radius:50px 50px 50px 50px;
+}
+.img-bloc-26-style{
+	width:529px;
+	border-radius:81px 81px 81px 81px;
+}
+.img-58-style{
+	width:586px;
+	border-radius:35px 35px 35px 35px;
+}
+.link-bloc-5-style{
+	text-decoration:none;
+}
+.link-yifan-yuan-style{
+	text-decoration:none;
+}
+.link-yinzhe-wu-style{
+	text-decoration:none;
+}
+.link-april-wu-style{
+	text-decoration:none;
+}
+.link-hao-li-style{
+	text-decoration:none;
+}
+.link-weixun-luo-style{
+	text-decoration:none;
+}
+.link-danting-zhang-style{
+	text-decoration:none;
+}
+.link-michael-yeung-style{
+	text-decoration:none;
+}
+.link-0-style{
+	text-decoration:none;
+}
+.img-61-style{
+	width:256px;
+}
+.img-82-style{
+	width:140px;
+}
+.img-ntu-lo-style{
+	width:279px;
+}
+.img-ic-b-style{
+	width:364px;
+}
+.img-15-style{
+	width:322px;
+}
+.img-16-style{
+	width:324px;
+}
+.img-19-style{
+	width:367px;
+}
+.img-24-style{
+	width:531px;
+}
+.img-23-style{
+	width:516px;
+}
+.img-logo-en-bl-style{
+	width:267px;
+}
+.img-73-style{
+	width:139px;
+}
+
+/* = Colour
+-------------------------------------------------------------- */
+
+/* Background colour styles */
+
+.bgc-white{
+	background-color:#FFFFFF;
+}
+
+/* Text colour styles */
+
+.tc-white{
+	color:#FFFFFF!important;
+}
+
+/* Link colour styles */
+
+.ltc-white{
+	color:#FFFFFF!important;
+}
+.ltc-white:hover{
+	color:#cccccc!important;
+}
+
+/* Icon colour styles */
+
+.icon-white{
+	color:#FFFFFF!important;
+	border-color:#FFFFFF!important;
+}
+
+/* Bloc image backgrounds */
+
+.bg-07{
+	background-image:url("img/07.jpg");
+}
+.bg-07ls{
+	background-image:url("img/07ls.jpg");
+}
+
+/* = Custom Bric Data
+-------------------------------------------------------------- */
+
+/* = Snap Scroll Pagination-------------------------------------------------------------- */.snap-scroll-pagination {
+		font-size:1.1em;
+		list-style: none;
+		padding:0 5px;
+		position:fixed;
+		left:20px;
+		top: 50%;
+	  	transform: translateY(-50%);
+		z-index: 10;
+}
+.right-align.snap-scroll-pagination{
+		right:20px;
+		left: initial;
+}
+.snap-scroll-paginate-bg.snap-scroll-pagination{
+		background: rgba(255,255,255,0.3);
+		border-radius: 6px;
+}
+.snap-scroll-pagination a {
+		display:block;
+		color:rgba(0,0,0,.8);
+		height:20px;
+		width: 20px;
+		margin:5px 0;
+		position:relative;
+}
+.snap-scroll-paginate-dashes a{
+		height:30px;
+		width:8px;
+}
+.snap-scroll-pagination a .hover-text {
+		color: rgba(0,0,0,0.5);
+		position:absolute;
+		display: none;
+		left:35px;
+		top:-5px;
+		opacity:0;
+		width:300px;
+		-webkit-transition: opacity 0.5s ease;
+		transition: opacity 0.5s ease;
+}
+.snap-scroll-paginate-dashes.snap-scroll-pagination a .hover-text{
+		top:2px;
+}
+.right-align.snap-scroll-pagination a .hover-text {
+		text-align:right;
+		right:35px;
+		left:initial;
+}
+.snap-scroll-pagination a:hover .hover-text {
+		opacity: 1;
+		display: inline-block;
+}
+.snap-scroll-pagination a:after {
+		content:"";
+		-webkit-transition:box-shadow 0.5s ease;
+		transition:box-shadow 0.5s ease;
+		width:10px;
+		height:10px;
+		display: block;
+		border:1px solid;
+		border-radius:50%;
+		position: absolute;
+		margin:auto;
+		top:0;
+		left:5px;
+		bottom:0;
+}
+.snap-scroll-paginate-dashes.snap-scroll-pagination a:after{
+		background-color: transparent;
+		width: 4px;
+		height:20px;
+		border-radius:0;
+		left:2px;
+		opacity: 0.5;
+}
+.snap-scroll-pagination a.active:after, .snap-scroll-paginate-dashes.snap-scroll-pagination a:after {
+		box-shadow:inset 0 0 0 5px;
+}
+.snap-scroll-pagination a.active:after{
+		opacity: 1;
+}
+.light-snap-scroll-theme.snap-scroll-pagination a, .light-snap-scroll-theme.snap-scroll-pagination a .hover-text{
+		color:#FFF;
+}
+.light-snap-scroll-theme.snap-scroll-paginate-bg{
+		background: rgba(0,0,0,0.3);
+}
+@media (max-width: 767px){
+		.snap-scroll-pagination{
+			left:5px;
+	}
+	.right-align.snap-scroll-pagination{
+			right:5px;
+			left: initial;
+	}
+}.page-scroll-progress-bar{
+		top:0;
+		left:0;
+		right:0;
+		width:0;
+		position: fixed;
+		z-index: 999999;
+}
+.page-scroll-progress-bar.bottom-edge{
+	top: initial;
+	bottom: 0;
+}
+/* WP Widget Styling */.widget-zone ul{
+	list-style: none;
+	padding: 0;
+}
+.code-embed{
+	color:#000;
+}
+
+
+/* = Bloc Padding Multi Breakpoint
+-------------------------------------------------------------- */
+
+@media (min-width: 576px) {
+    .bloc-xxl-sm{padding:200px 20px;}
+    .bloc-xl-sm{padding:150px 20px;}
+    .bloc-lg-sm{padding:100px 20px;}
+    .bloc-md-sm{padding:50px 20px;}
+    .bloc-sm-sm{padding:20px;}
+    .bloc-no-padding-sm{padding:0 20px;}
+}
+@media (min-width: 768px) {
+    .bloc-xxl-md{padding:200px 20px;}
+    .bloc-xl-md{padding:150px 20px;}
+    .bloc-lg-md{padding:100px 20px;}
+    .bloc-md-md{padding:50px 20px;}
+    .bloc-sm-md{padding:20px 20px;}
+    .bloc-no-padding-md{padding:0 20px;}
+}
+@media (min-width: 992px) {
+    .bloc-xxl-lg{padding:200px 20px;}
+    .bloc-xl-lg{padding:150px 20px;}
+    .bloc-lg-lg{padding:100px 20px;}
+    .bloc-md-lg{padding:50px 20px;}
+    .bloc-sm-lg{padding:20px;}
+    .bloc-no-padding-lg{padding:0 20px;}
+}
+
+
+/* = Mobile adjustments 
+-------------------------------------------------------------- */
+@media (max-width: 1024px)
+{
+    .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
+        padding-left: 0; 
+        padding-right: 0;  
+    }
+}
+@media (max-width: 991px)
+{
+    .container{width:100%;}
+    .bloc{padding-left: constant(safe-area-inset-left);padding-right: constant(safe-area-inset-right);} /* iPhone X Notch Support*/
+    .bloc-group, .bloc-group .bloc{display:block;width:100%;}
+}
+@media (max-width: 767px)
+{
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+        padding-left:0;padding-right:0;
+    }
+    .btn-dwn{
+       display:none; 
+    }
+    .voffset{
+        margin-top:5px;
+    }
+    .voffset-md{
+        margin-top:20px;
+    }
+    .voffset-lg{
+        margin-top:30px;
+    }
+    form{
+        padding:5px;
+    }
+    .close-lightbox{
+        display:inline-block;
+    }
+    .blocsapp-device-iphone5{
+	   background-size: 216px 425px;
+	   padding-top:60px;
+	   width:216px;
+	   height:425px;
+    }
+    .blocsapp-device-iphone5 img{
+	   width: 180px;
+	   height: 320px;
+    }
+}
+
+@media (max-width: 991px){
+	.mt-md-0{
+	}
+	.mt-md-4{
+	}
+	
+}
+
+@media (max-width: 767px){
+	.feat-card{
+		margin-bottom:60px;
+	}
+	
+}
+
+@media (max-width: 575px){
+	.footer-link{
+		text-align:center;
+	}
+	.mt-1{
+	}
+	
+}
+
