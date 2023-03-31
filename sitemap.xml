@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.yanglab.fyi</loc>
-	<lastmod>2023-03-23</lastmod>
+	<lastmod>2023-03-31</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -52,6 +52,10 @@
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/EMBC_2022_JHH.png</image:loc>
 	<image:title>EMBC_2022_JHH</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/WeixunPoster.png</image:loc>
+	<image:title>WeixunPoster</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/Book1.png</image:loc>
@@ -404,7 +408,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/research.html</loc>
-	<lastmod>2023-03-23</lastmod>
+	<lastmod>2023-03-31</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -426,7 +430,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/imaging.html</loc>
-	<lastmod>2023-03-23</lastmod>
+	<lastmod>2023-03-31</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
