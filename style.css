@@ -16,6 +16,10 @@ body{
 .page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
+.scroll-fx-lock-init{position:fixed!important;top: 0;bottom: 0;left: :0;right: 0;z-index:99999;} /* ScrollFX Lock */
+.blocs-grid-container{display: grid!important;grid-template-columns: 1fr 1fr;grid-template-rows: auto auto;column-gap: 1.5rem;row-gap: 1.5rem;} /* CSS Grid */
+nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downdown Menu Link Color in Navigation */
+[data-bs-theme="dark"] nav .dropdown-menu .nav-link{color:var(--bs-dropdown-link-color)!important;} /* Maintain Downdown Menu Link Color in Navigation in Darkmode */
 
 
 /* Preloader */
@@ -48,6 +52,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
+.bloc-xl{
+	padding:150px 20px;
+}
 .bloc-lg{
 	padding:100px 20px;
 }
@@ -190,6 +197,39 @@ a:hover{text-decoration: none; cursor:pointer;}
 	box-shadow:0 1px 2px rgba(0,0,0,.3);
 	 transition: all .2s ease-out;
 }
+/* Navbar Icon */
+.svg-menu-icon{
+	fill: none;
+	stroke: rgba(0,0,0,0.5);
+	stroke-width: 2px;
+	fill-rule: evenodd;
+}
+.navbar-dark .svg-menu-icon{
+	stroke: rgba(255,255,255,0.5);
+}
+.menu-icon-thin-bars{
+	stroke-width: 1px;
+}
+.menu-icon-thick-bars{
+	stroke-width: 5px;
+}
+.menu-icon-rounded-bars{
+	stroke-width: 3px;
+	stroke-linecap: round;
+}
+.menu-icon-filled{
+	fill: rgba(0,0,0,0.5);
+	stroke-width: 0px;
+}
+.navbar-dark .menu-icon-filled{
+	fill: rgba(255,255,255,0.5);
+}
+.navbar-toggler-icon{
+	background: none!important;
+	pointer-events: none;
+	width: 33px;
+	height: 33px;
+}
 /* Handle Multi Level Navigation */
 .dropdown-menu .dropdown-menu{
 	border:none}
@@ -319,8 +359,25 @@ button{
 	border-left:0;
 	border-right:2px solid;
 }
+.text-justify{
+	text-align: justify;
+}
 
 
+/* = Cards
+-------------------------------------------------------------- */
+.card-sq, .card-sq .card-header, .card-sq .card-footer{
+	border-radius:0;
+}
+.card-rd{
+	border-radius:30px;
+}
+.card-rd .card-header{
+	border-radius:29px 29px 0 0;
+}
+.card-rd .card-footer{
+	border-radius:0 0 29px 29px;
+}
 /* = Masonary
 -------------------------------------------------------------- */
 .card-columns .card {
@@ -342,23 +399,18 @@ button{
 	width: 100%;
 }
 }
-/* = Dividers
+/* = Classic Dividers
 -------------------------------------------------------------- */
 .divider-h{
-	padding:20px 0;
-	width:100%;
-	display:inline-block;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
+	min-height: 1px;
+	background-color:rgba(0,0,0,.2);
+	margin: 20px 0;
 }
 .divider-half{
 	width: 50%;
-	margin: 0 auto;
 }
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
+.dropdown-menu .divider-h{
+	margin:0;
 }
 
 
@@ -369,6 +421,10 @@ button{
 	stroke-width: 2px;
 	fill-rule: evenodd;
 	stroke-linecap:round;
+}
+
+.carousel-indicators li::marker{
+	font-size:0;
 }
 /* Scroll FX */
 .scroll-fx-in-range{
@@ -426,6 +482,10 @@ button{
 }
 .blocsapp-device-ipad.ipad-silver{
 	background-image:url("img/Apple-iPad-Air-Silver.png");
+	background-image: -webkit-image-set(url("img/Apple-iPad-Air-Silver.webp") 1x,
+url("img/Apple-iPad-Air-Silver.webp") 2x);background-image: image-set(url("img/Apple-iPad-Air-Silver.png") 1x,
+url("img/Apple-iPad-Air-Silver.png") 2x,url("img/Apple-iPad-Air-Silver.webp") 1x,
+url("img/Apple-iPad-Air-Silver.webp") 2x);
 }
 /* = MacBook Devices
 -------------------------------------------------------------- */
@@ -455,6 +515,10 @@ button{
 
 .mb-space-grey{
 	background-image:url("img/Apple-Macbook-Space-Grey.png");
+	background-image: -webkit-image-set(url("img/Apple-Macbook-Space-Grey.webp") 1x,
+url("img/Apple-Macbook-Space-Grey.webp") 2x);background-image: image-set(url("img/Apple-Macbook-Space-Grey.png") 1x,
+url("img/Apple-Macbook-Space-Grey.png") 2x,url("img/Apple-Macbook-Space-Grey.webp") 1x,
+url("img/Apple-Macbook-Space-Grey.webp") 2x);
 }
 /* = Watch Devices
 -------------------------------------------------------------- */
@@ -484,6 +548,10 @@ button{
 }
 .blocsapp-device-watch.watch-white{
 	background-image:url("img/Apple-watch-white.png");
+	background-image: -webkit-image-set(url("img/Apple-watch-white.webp") 1x,
+url("img/Apple-watch-white.webp") 2x);background-image: image-set(url("img/Apple-watch-white.png") 1x,
+url("img/Apple-watch-white.png") 2x,url("img/Apple-watch-white.webp") 1x,
+url("img/Apple-watch-white.webp") 2x);
 }
 
 .close{
@@ -492,6 +560,82 @@ button{
 }
 .close:hover{
 	opacity:1;
+}
+
+/* Horizontal Scroll Container */
+.blocs-horizontal-scroll-container{
+	position:relative;
+}
+.blocs-horizontal-scroll-area{
+	display:flex;
+	overflow-x:auto;
+	align-items:flex-start;
+	gap:20px;
+}
+.blocs-horizontal-scroll-area > *{
+	flex-shrink:0;
+	max-width:100%;
+}
+.blocs-horizontal-scroll-area::-webkit-scrollbar{
+	display:none;
+}
+.blocs-horizontal-scroll-control{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	z-index:1;
+	display:flex;
+	text-align:center;
+	border:0;
+	margin:0 30px;
+}
+.blocs-scroll-control-next{
+	right:0;
+}
+.blocs-round-btn{
+	background:rgba(0,0,0,0.15);
+	border-radius:100%;
+	padding:12px;
+	opacity:0;
+	cursor:pointer;
+	transform:scale(0.5);
+	backdrop-filter:blur(20px);
+	-webkit-backdrop-filter:blur(20px);
+	transition:opacity .50s ease,transform .50s ease;
+}
+.blocs-horizontal-scroll-container:hover .blocs-round-btn,.blocs-horizontal-scroll-container.show-controls .blocs-round-btn{
+	opacity:1;
+	transform:scale(1.0);
+}
+.blocs-round-btn:active{
+	background:rgba(0,0,0,0.3);
+	transform:scale(0.9)!important;
+	transition:transform .30s ease,background .50s ease;
+}
+.compact-blocs-controls .blocs-round-btn{
+	padding:2px;
+	width:30px;
+	height: 30px;
+}
+.compact-blocs-controls .blocs-round-btn svg{
+	width:14px;
+	height:14px;
+}
+.compact-blocs-controls .blocs-horizontal-scroll-control{
+	margin:0 20px;
+}
+.horizontal-scroll-icon{
+	fill:none;
+	stroke:#fff;
+	stroke-width:4px;
+	fill-rule:evenodd;
+	stroke-linecap:round;
+}
+.hide-left-control > .blocs-scroll-control-prev, .hide-right-control > .blocs-scroll-control-next{
+	opacity:0!important;
+}
+.show-controls > .blocs-scroll-control-prev, .show-controls > .blocs-scroll-control-next{
+	opacity:1!important;
 }
 
 /* = Custom Styling
@@ -545,16 +689,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:35px;
 }
 .img-36-style{
-	width:266px;
+	width:217px;
 }
 .img-39-style{
-	width:92px;
+	width:84px;
 }
 .img-37-style{
-	width:252px;
+	width:198px;
 }
 .img-38-style{
-	width:267px;
+	width:218px;
 }
 .img-eu-h2020-lo-style{
 	width:267px;
@@ -601,7 +745,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:160px;
 }
 .img-42-style{
-	width:115px;
+	width:108px;
 }
 .card-footer-style{
 	height:74px;
@@ -705,13 +849,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:256px;
 }
 .img-82-style{
-	width:140px;
+	width:92px;
 }
 .img-ntu-lo-style{
-	width:279px;
+	width:187px;
 }
 .img-ic-b-style{
-	width:364px;
+	width:243px;
 }
 .img-15-style{
 	width:322px;
@@ -755,45 +899,85 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-color{
 	color:#d9ebe4;
 }
+.alert-style{
+	height:244px;
+}
+.blocs-card-width{
+	width:25%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
+/* Swatch Variables */
+:root{
+	
+	--swatch-var-5702:rgba(255,255,255,0.68);
+	
+	--swatch-var-6027:#48A8C1;
+	
+	--swatch-var-2539:#FFFFFF;
+	
+	--swatch-var-458:#000000;
+	
+	--swatch-var-3202:rgba(0,0,0,0.03);
+	
+	--swatch-var-4593:rgba(255,255,255,0.5);
+	
+	--swatch-var-6296:#5E5E5E;
+	
+}
+
+
 /* Background colour styles */
 
-.bgc-white{
-	background-color:#FFFFFF;
+.bgc-6296{
+	background-color:var(--swatch-var-6296);
+}
+.bgc-2539{
+	background-color:var(--swatch-var-2539);
 }
 
 /* Text colour styles */
 
-.tc-white{
-	color:#FFFFFF!important;
+.tc-2539{
+	color:var(--swatch-var-2539)!important;
+}
+.tc-4593{
+	color:var(--swatch-var-4593)!important;
 }
 
 /* Link colour styles */
 
-.ltc-white{
-	color:#FFFFFF!important;
+.ltc-2539{
+	color:var(--swatch-var-2539)!important;
 }
-.ltc-white:hover{
-	color:#cccccc!important;
+.ltc-2539:hover{
+	color:#CCCCCC!important;
 }
 
 /* Icon colour styles */
 
-.icon-white{
-	color:#FFFFFF!important;
-	border-color:#FFFFFF!important;
+.icon-2539{
+	color:var(--swatch-var-2539)!important;
+	border-color:var(--swatch-var-2539)!important;
 }
 
 /* Bloc image backgrounds */
 
 .bg-07{
 	background-image:url("img/07.jpg");
+	background-image: -webkit-image-set(url("img/07.webp") 1x,
+url("img/07.webp") 2x);background-image: image-set(url("img/07.jpg") 1x,
+url("img/07.jpg") 2x,url("img/07.webp") 1x,
+url("img/07.webp") 2x);
 }
 .bg-07ls{
 	background-image:url("img/07ls.jpg");
+	background-image: -webkit-image-set(url("img/07ls.webp") 1x,
+url("img/07ls.webp") 2x);background-image: image-set(url("img/07ls.jpg") 1x,
+url("img/07ls.jpg") 2x,url("img/07ls.webp") 1x,
+url("img/07ls.webp") 2x);
 }
 
 /* = Custom Bric Data
@@ -1000,12 +1184,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.mt-md-4{
 	}
+	.blocs-card-width{
+		width:50%;
+	}
 	
 }
 
 @media (max-width: 767px){
 	.feat-card{
 		margin-bottom:60px;
+	}
+	.blocs-card-width{
+		width:50%;
 	}
 	
 }
@@ -1015,6 +1205,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		text-align:center;
 	}
 	.mt-1{
+	}
+	.blocs-card-width{
+		width:100%;
 	}
 	
 }
