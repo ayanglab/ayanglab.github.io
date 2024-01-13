@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.yanglab.fyi</loc>
-	<lastmod>2024-01-12</lastmod>
+	<lastmod>2024-01-13</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -744,7 +744,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/research.html</loc>
-	<lastmod>2024-01-12</lastmod>
+	<lastmod>2024-01-13</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -774,7 +774,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/imaging.html</loc>
-	<lastmod>2024-01-12</lastmod>
+	<lastmod>2024-01-13</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -796,7 +796,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/challenges.html</loc>
-	<lastmod>2024-01-12</lastmod>
+	<lastmod>2024-01-13</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -847,6 +847,20 @@
 	<image:loc>https://www.yanglab.fyi/img/RBH.webp</image:loc>
 	<image:title>RBH</image:title>
 	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.yanglab.fyi/values.html</loc>
+	<lastmod>2024-01-13</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
