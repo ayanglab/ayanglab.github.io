@@ -554,14 +554,6 @@ url("img/Apple-watch-white.png") 2x,url("img/Apple-watch-white.webp") 1x,
 url("img/Apple-watch-white.webp") 2x);
 }
 
-.close{
-	color:#000;
-	opacity:0.5;
-}
-.close:hover{
-	opacity:1;
-}
-
 /* Horizontal Scroll Container */
 .blocs-horizontal-scroll-container{
 	position:relative;
@@ -633,9 +625,14 @@ url("img/Apple-watch-white.webp") 2x);
 }
 .hide-left-control > .blocs-scroll-control-prev, .hide-right-control > .blocs-scroll-control-next{
 	opacity:0!important;
+	pointer-events: none;
+	transition:opacity .50s ease;
 }
-.show-controls > .blocs-scroll-control-prev, .show-controls > .blocs-scroll-control-next{
+.show-controls:not(.hide-left-control) > .blocs-scroll-control-prev, .show-controls:not(.hide-right-control) > .blocs-scroll-control-next{
 	opacity:1!important;
+}
+.blocs-horizontal-scroll-area img.lazyload{
+	height:0;
 }
 
 /* = Custom Styling
@@ -986,120 +983,9 @@ url("img/07ls.webp") 2x);
 /* = Custom Bric Data
 -------------------------------------------------------------- */
 
-/* = Snap Scroll Pagination-------------------------------------------------------------- */.snap-scroll-pagination {
-		font-size:1.1em;
-		list-style: none;
-		padding:0 5px;
-		position:fixed;
-		left:20px;
-		top: 50%;
-	  	transform: translateY(-50%);
-		z-index: 10;
-}
-.right-align.snap-scroll-pagination{
-		right:20px;
-		left: initial;
-}
-.snap-scroll-paginate-bg.snap-scroll-pagination{
-		background: rgba(255,255,255,0.3);
-		border-radius: 6px;
-}
-.snap-scroll-pagination a {
-		display:block;
-		color:rgba(0,0,0,.8);
-		height:20px;
-		width: 20px;
-		margin:5px 0;
-		position:relative;
-}
-.snap-scroll-paginate-dashes a{
-		height:30px;
-		width:8px;
-}
-.snap-scroll-pagination a .hover-text {
-		color: rgba(0,0,0,0.5);
-		position:absolute;
-		display: none;
-		left:35px;
-		top:-5px;
-		opacity:0;
-		width:300px;
-		-webkit-transition: opacity 0.5s ease;
-		transition: opacity 0.5s ease;
-}
-.snap-scroll-paginate-dashes.snap-scroll-pagination a .hover-text{
-		top:2px;
-}
-.right-align.snap-scroll-pagination a .hover-text {
-		text-align:right;
-		right:35px;
-		left:initial;
-}
-.snap-scroll-pagination a:hover .hover-text {
-		opacity: 1;
-		display: inline-block;
-}
-.snap-scroll-pagination a:after {
-		content:"";
-		-webkit-transition:box-shadow 0.5s ease;
-		transition:box-shadow 0.5s ease;
-		width:10px;
-		height:10px;
-		display: block;
-		border:1px solid;
-		border-radius:50%;
-		position: absolute;
-		margin:auto;
-		top:0;
-		left:5px;
-		bottom:0;
-}
-.snap-scroll-paginate-dashes.snap-scroll-pagination a:after{
-		background-color: transparent;
-		width: 4px;
-		height:20px;
-		border-radius:0;
-		left:2px;
-		opacity: 0.5;
-}
-.snap-scroll-pagination a.active:after, .snap-scroll-paginate-dashes.snap-scroll-pagination a:after {
-		box-shadow:inset 0 0 0 5px;
-}
-.snap-scroll-pagination a.active:after{
-		opacity: 1;
-}
-.light-snap-scroll-theme.snap-scroll-pagination a, .light-snap-scroll-theme.snap-scroll-pagination a .hover-text{
-		color:#FFF;
-}
-.light-snap-scroll-theme.snap-scroll-paginate-bg{
-		background: rgba(0,0,0,0.3);
-}
-@media (max-width: 767px){
-		.snap-scroll-pagination{
-			left:5px;
-	}
-	.right-align.snap-scroll-pagination{
-			right:5px;
-			left: initial;
-	}
-}.page-scroll-progress-bar{
-		top:0;
-		left:0;
-		right:0;
-		width:0;
-		position: fixed;
-		z-index: 999999;
-}
-.page-scroll-progress-bar.bottom-edge{
-	top: initial;
-	bottom: 0;
-}
 /* WP Widget Styling */.widget-zone ul{
 	list-style: none;
 	padding: 0;
-}
-.code-embed{
-	color:#000;
 }
 
 
