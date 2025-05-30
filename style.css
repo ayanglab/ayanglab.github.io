@@ -1029,6 +1029,18 @@ url("img/07ls.webp") 2x);
 	list-style: none;
 	padding: 0;
 }
+.page-scroll-progress-bar{
+		top:0;
+		left:0;
+		right:0;
+		width:0;
+		position: fixed;
+		z-index: 999999;
+}
+.page-scroll-progress-bar.bottom-edge{
+	top: initial;
+	bottom: 0;
+}
 
 
 /* = Bloc Padding Multi Breakpoint
