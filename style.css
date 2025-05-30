@@ -345,6 +345,11 @@ button{
 .img-protected{
 	-webkit-touch-callout: none;
 }
+/*  Image Scale */
+.img-fluid-up{
+	min-width: 100%;
+	height: auto;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -486,6 +491,40 @@ button{
 url("img/Apple-iPad-Air-Silver.webp") 2x);background-image: image-set(url("img/Apple-iPad-Air-Silver.png") 1x,
 url("img/Apple-iPad-Air-Silver.png") 2x,url("img/Apple-iPad-Air-Silver.webp") 1x,
 url("img/Apple-iPad-Air-Silver.webp") 2x);
+}
+/* = iPad Pro Devices
+-------------------------------------------------------------- */
+
+.blocsapp-device-ipad-pro{
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	display:block;
+	width:100%;
+	height:auto;
+	padding:7%}.blocsapp-device-ipad-pro img{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	border-radius:2%/3%}.blocsapp-device-ipad-pro .ratio{
+	width:100%;
+	left:0;
+	border-radius:3%/2%;
+}
+.blocsapp-device-ipad-pro .ratio::before{
+	padding-top: 106.25%;
+}
+.blocsapp-device-ipad-pro.ipad-pro-portrait{
+	padding:9%}.blocsapp-device-ipad-pro.ipad-pro-portrait img{
+	border-radius:3%/2%}.blocsapp-device-ipad-pro.ipad-pro-portrait .ratio{
+	padding-bottom:35%;
+}
+.blocsapp-device-ipad-pro.ipad-pro-portrait{
+	background-image:url("img/Apple-iPad-Pro-Portrait.png");
+	background-image: -webkit-image-set(url("img/Apple-iPad-Pro-Portrait.webp") 1x,
+url("img/Apple-iPad-Pro-Portrait.webp") 2x);background-image: image-set(url("img/Apple-iPad-Pro-Portrait.png") 1x,
+url("img/Apple-iPad-Pro-Portrait.png") 2x,url("img/Apple-iPad-Pro-Portrait.webp") 1x,
+url("img/Apple-iPad-Pro-Portrait.webp") 2x);
 }
 /* = MacBook Devices
 -------------------------------------------------------------- */
@@ -710,7 +749,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:255px;
 }
 .img-32-style{
-	width:311px;
+	width:242px;
 }
 .img-28-style{
 	width:104px;
@@ -776,7 +815,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:52px;
 }
 .img-thiro-style{
-	width:267px;
+	width:231px;
 }
 .img-radiomi-style{
 	width:209px;
@@ -791,7 +830,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:172px;
 }
 .img-35-style{
-	width:238px;
+	width:229px;
 }
 .p-29-style{
 	width:100%;
@@ -828,7 +867,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:none;
 }
 .link-hao-li-style{
-	text-decoration:none;
+	text-decoration:underline;
 }
 .link-weixun-luo-style{
 	text-decoration:none;
@@ -870,10 +909,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:516px;
 }
 .img-logo-en-bl-style{
-	width:267px;
+	width:214px;
 }
 .img-73-style{
-	width:139px;
+	width:219px;
 }
 .img-post-style{
 	height:520px;
@@ -904,6 +943,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .html-widget-style{
 	width:59.47%;
+}
+.img-jbhi-style{
+	width:558px;
 }
 
 /* = Colour
