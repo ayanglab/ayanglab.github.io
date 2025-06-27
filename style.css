@@ -1025,10 +1025,6 @@ url("img/07ls.webp") 2x);
 /* = Custom Bric Data
 -------------------------------------------------------------- */
 
-/* WP Widget Styling */.widget-zone ul{
-	list-style: none;
-	padding: 0;
-}
 .page-scroll-progress-bar{
 		top:0;
 		left:0;
@@ -1040,6 +1036,10 @@ url("img/07ls.webp") 2x);
 .page-scroll-progress-bar.bottom-edge{
 	top: initial;
 	bottom: 0;
+}
+/* WP Widget Styling */.widget-zone ul{
+	list-style: none;
+	padding: 0;
 }
 
 
