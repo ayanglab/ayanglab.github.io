@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.yanglab.fyi</loc>
-	<lastmod>2025-06-27</lastmod>
+	<lastmod>2025-11-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -278,10 +278,6 @@
 	<image:title>YY2</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/FF.svg</image:loc>
-	<image:title>FF</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/SZ.svg</image:loc>
 	<image:title>SZ</image:title>
 	</image:image>
@@ -310,11 +306,11 @@
 	<image:title>ZW</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/ML.svg</image:loc>
-	<image:title>placeholder user</image:title>
+	<image:loc>https://www.yanglab.fyi/img/CLT.svg</image:loc>
+	<image:title>FF</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/JH.svg</image:loc>
+	<image:loc>https://www.yanglab.fyi/img/ML.svg</image:loc>
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
@@ -370,6 +366,26 @@
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/PYJ.svg</image:loc>
+	<image:title>PYJ</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/HSZ.svg</image:loc>
+	<image:title>HSZ</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/LWH.svg</image:loc>
+	<image:title>PYJ</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/IYSZ2.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/ABP.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/KW.svg</image:loc>
 	<image:title>placeholder user</image:title>
 	</image:image>
@@ -398,6 +414,10 @@
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/LSKI2.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/XM.svg</image:loc>
 	<image:title>placeholder user</image:title>
 	</image:image>
@@ -410,12 +430,28 @@
 	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/HCZ.svg</image:loc>
+	<image:loc>https://www.yanglab.fyi/img/FDS.svg</image:loc>
+	<image:title>placeholder user</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/WYB.svg</image:loc>
 	<image:title>HCZ</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/PYJ.svg</image:loc>
-	<image:title>PYJ</image:title>
+	<image:loc>https://www.yanglab.fyi/img/HJX.svg</image:loc>
+	<image:title>HCZ</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/YJW.svg</image:loc>
+	<image:title>HJW</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/JRG.svg</image:loc>
+	<image:title>HJW</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/HCZ.svg</image:loc>
+	<image:title>HCZ</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/YTL.svg</image:loc>
@@ -442,10 +478,6 @@
 	<image:title>CRD</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/HSZ.svg</image:loc>
-	<image:title>HSZ</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/HJW.svg</image:loc>
 	<image:title>HJW</image:title>
 	</image:image>
@@ -462,8 +494,8 @@
 	<image:title>MT</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.yanglab.fyi/img/JJH.svg</image:loc>
-	<image:title>JJH</image:title>
+	<image:loc>https://www.yanglab.fyi/img/JH.svg</image:loc>
+	<image:title>placeholder user</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/CWJ.png</image:loc>
@@ -472,6 +504,14 @@
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/CWJ.webp</image:loc>
 	<image:title>CWJ</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/FF.svg</image:loc>
+	<image:title>FF</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.yanglab.fyi/img/JJH.svg</image:loc>
+	<image:title>JJH</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.yanglab.fyi/img/JZH.png</image:loc>
@@ -888,7 +928,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/research.html</loc>
-	<lastmod>2025-06-27</lastmod>
+	<lastmod>2025-11-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -910,7 +950,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/imaging.html</loc>
-	<lastmod>2025-06-27</lastmod>
+	<lastmod>2025-11-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -924,7 +964,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/challenges.html</loc>
-	<lastmod>2025-06-27</lastmod>
+	<lastmod>2025-11-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -978,7 +1018,7 @@
 </url>
 <url>
 	<loc>https://www.yanglab.fyi/values.html</loc>
-	<lastmod>2025-06-27</lastmod>
+	<lastmod>2025-11-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
