@@ -580,12 +580,12 @@ url("img/Apple-Macbook-Space-Grey.webp") 2x);
 	right: -15%;
 	border-radius: 14%;
 }
-.blocsapp-device-watch.watch-white{
-	background-image:url("img/apple-watch-white.png");
-	background-image: -webkit-image-set(url("img/apple-watch-white.webp") 1x,
-url("img/apple-watch-white.webp") 2x);background-image: image-set(url("img/apple-watch-white.png") 1x,
-url("img/apple-watch-white.png") 2x,url("img/apple-watch-white.webp") 1x,
-url("img/apple-watch-white.webp") 2x);
+.blocsapp-device-watch.watch-clementine{
+	background-image:url("img/apple-watch-clementine.png");
+	background-image: -webkit-image-set(url("img/apple-watch-clementine.webp") 1x,
+url("img/apple-watch-clementine.webp") 2x);background-image: image-set(url("img/apple-watch-clementine.png") 1x,
+url("img/apple-watch-clementine.png") 2x,url("img/apple-watch-clementine.webp") 1x,
+url("img/apple-watch-clementine.webp") 2x);
 }
 
 /* Horizontal Scroll Container */
