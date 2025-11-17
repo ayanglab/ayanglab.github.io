@@ -1063,6 +1063,9 @@ url("img/07ls.webp") 2x);
 	padding: 0;
 }
 
+/* Accesibility Enhancements */
+a:focus-visible,button:focus-visible{outline: 4px solid rgba(13, 110, 253, 0.60)!important;outline-offset: 2px;box-shadow:none!important;}
+
 
 /* = Toggle Visibility
 -------------------------------------------------------------- */
