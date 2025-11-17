@@ -190,13 +190,12 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 /* = Sticky Nav
 -------------------------------------------------------------- */
 
-.sticky-bloc.sticky,.sticky-nav.sticky{
-	position:fixed;
-	z-index:1000;
-	transition: all .2s ease-out;
-}
 .sticky-nav.sticky{
-	box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	position:fixed;
+	top:0;
+	z-index:1000;
+	box-shadow:0 1px 2px rgba(0,0,0,.3);
+	 transition: all .2s ease-out;
 }
 /* Navbar Icon */
 .svg-menu-icon{
@@ -298,6 +297,11 @@ img.mg-lg{
 	background:rgba(0,0,0,.3);
 }
 
+/* Prevent ugly blue glow on chrome and safari */
+button{
+	outline: none!important;
+}
+
 .btn-style-none,.btn-style-none:hover,.btn-style-none:active,.btn-style-none:focus{
 	background:none;
 	box-shadow: none;
@@ -337,11 +341,11 @@ img.mg-lg{
 .img-frame-lg,.img-frame-rd-lg{
 	padding:14px;
 }
-/* Image Protection */
+/*  Image Protection */
 .img-protected{
 	-webkit-touch-callout: none;
 }
-/* Image Scale */
+/*  Image Scale */
 .img-fluid-up{
 	min-width: 100%;
 	height: auto;
@@ -413,6 +417,7 @@ img.mg-lg{
 .dropdown-menu .divider-h{
 	margin:0;
 }
+
 
 
 .carousel-nav-icon{
@@ -487,39 +492,39 @@ url("img/Apple-iPad-Air-Silver.webp") 2x);background-image: image-set(url("img/A
 url("img/Apple-iPad-Air-Silver.png") 2x,url("img/Apple-iPad-Air-Silver.webp") 1x,
 url("img/Apple-iPad-Air-Silver.webp") 2x);
 }
-/* = iPad Air / Pro Devices
+/* = iPad Pro Devices
 -------------------------------------------------------------- */
 
-.blocsapp-device-ipad-pro, .blocsapp-device-ipad-air{
+.blocsapp-device-ipad-pro{
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
 	display:block;
 	width:100%;
 	height:auto;
-	padding:7%}.blocsapp-device-ipad-pro img,.blocsapp-device-ipad-air img{
+	padding:7%}.blocsapp-device-ipad-pro img{
 	width:100%;
 	height:auto;
 	margin:0 auto;
-	border-radius:2%/3%}.blocsapp-device-ipad-pro .ratio, .blocsapp-device-ipad-air .ratio{
+	border-radius:2%/3%}.blocsapp-device-ipad-pro .ratio{
 	width:100%;
 	left:0;
 	border-radius:3%/2%;
 }
-.blocsapp-device-ipad-pro .ratio::before,.blocsapp-device-ipad-air .ratio::before{
+.blocsapp-device-ipad-pro .ratio::before{
 	padding-top: 106.25%;
 }
-.blocsapp-device-ipad-pro.ipad-pro-portrait,.blocsapp-device-ipad-air.ipad-air-portrait{
-	padding:9%}.blocsapp-device-ipad-pro.ipad-pro-portrait img,.blocsapp-device-ipad-air.ipad-air-portrait img{
-	border-radius:3%/2%}.blocsapp-device-ipad-pro.ipad-pro-portrait .ratio, .blocsapp-device-ipad-air.ipad-air-portrait .ratio{
+.blocsapp-device-ipad-pro.ipad-pro-portrait{
+	padding:9%}.blocsapp-device-ipad-pro.ipad-pro-portrait img{
+	border-radius:3%/2%}.blocsapp-device-ipad-pro.ipad-pro-portrait .ratio{
 	padding-bottom:35%;
 }
-.blocsapp-device-ipad-pro.ipad-pro-portrait.ipad-pro-silver{
-	background-image:url("img/apple-ipad-pro-portrait-silver.png");
-	background-image: -webkit-image-set(url("img/apple-ipad-pro-portrait-silver.webp") 1x,
-url("img/apple-ipad-pro-portrait-silver.webp") 2x);background-image: image-set(url("img/apple-ipad-pro-portrait-silver.png") 1x,
-url("img/apple-ipad-pro-portrait-silver.png") 2x,url("img/apple-ipad-pro-portrait-silver.webp") 1x,
-url("img/apple-ipad-pro-portrait-silver.webp") 2x);
+.blocsapp-device-ipad-pro.ipad-pro-portrait{
+	background-image:url("img/Apple-iPad-Pro-Portrait.png");
+	background-image: -webkit-image-set(url("img/Apple-iPad-Pro-Portrait.webp") 1x,
+url("img/Apple-iPad-Pro-Portrait.webp") 2x);background-image: image-set(url("img/Apple-iPad-Pro-Portrait.png") 1x,
+url("img/Apple-iPad-Pro-Portrait.png") 2x,url("img/Apple-iPad-Pro-Portrait.webp") 1x,
+url("img/Apple-iPad-Pro-Portrait.webp") 2x);
 }
 /* = MacBook Devices
 -------------------------------------------------------------- */
@@ -531,7 +536,7 @@ url("img/apple-ipad-pro-portrait-silver.webp") 2x);
 	display: block;
 	width:100%;
 	height:auto;
-	padding: 6% 10% 8%;
+	padding: 3.6% 15% 7.5%;
 }
 .blocsapp-device-mb img{
 	width:100%;
@@ -542,7 +547,7 @@ url("img/apple-ipad-pro-portrait-silver.webp") 2x);
 	padding-top: 56.25%;
 }
 .blocsapp-device-mb .ratio{
-	padding-bottom: 7%;
+	padding-bottom: 8%;
 }
 /* = MacBook Space Grey
 -------------------------------------------------------------- */
@@ -580,12 +585,12 @@ url("img/Apple-Macbook-Space-Grey.webp") 2x);
 	right: -15%;
 	border-radius: 14%;
 }
-.blocsapp-device-watch.watch-clementine{
-	background-image:url("img/apple-watch-clementine.png");
-	background-image: -webkit-image-set(url("img/apple-watch-clementine.webp") 1x,
-url("img/apple-watch-clementine.webp") 2x);background-image: image-set(url("img/apple-watch-clementine.png") 1x,
-url("img/apple-watch-clementine.png") 2x,url("img/apple-watch-clementine.webp") 1x,
-url("img/apple-watch-clementine.webp") 2x);
+.blocsapp-device-watch.watch-white{
+	background-image:url("img/Apple-watch-white.png");
+	background-image: -webkit-image-set(url("img/Apple-watch-white.webp") 1x,
+url("img/Apple-watch-white.webp") 2x);background-image: image-set(url("img/Apple-watch-white.png") 1x,
+url("img/Apple-watch-white.png") 2x,url("img/Apple-watch-white.webp") 1x,
+url("img/Apple-watch-white.webp") 2x);
 }
 
 /* Horizontal Scroll Container */
@@ -597,8 +602,6 @@ url("img/apple-watch-clementine.webp") 2x);
 	overflow-x:auto;
 	align-items:flex-start;
 	gap:20px;
-	scrollbar-width: none;
-	-ms-overflow-style: none;
 }
 .blocs-horizontal-scroll-area > *{
 	flex-shrink:0;
@@ -667,35 +670,8 @@ url("img/apple-watch-clementine.webp") 2x);
 .show-controls:not(.hide-left-control) > .blocs-scroll-control-prev, .show-controls:not(.hide-right-control) > .blocs-scroll-control-next{
 	opacity:1!important;
 }
-.show-controls.hide-left-control > .blocs-scroll-control-prev, .show-controls.hide-right-control > .blocs-scroll-control-next{
-	opacity:0.4!important;
-}
 .blocs-horizontal-scroll-area img.lazyload{
 	height:0;
-}
-.horizontal-scroll-v-t .blocs-horizontal-scroll-control{
-	top:-40px;
-}
-.horizontal-scroll-v-b .blocs-horizontal-scroll-control{
-	top:100%;
-}
-.horizontal-scroll-h-c .blocs-scroll-control-next{
-	left:50%;
-}
-.horizontal-scroll-h-c .blocs-scroll-control-prev{
-	right:50%;
-}
-.horizontal-scroll-h-l .blocs-scroll-control-next{
-	left:60px;
-}
-.horizontal-scroll-h-l.compact-blocs-controls .blocs-scroll-control-next{
-	left:40px;
-}
-.horizontal-scroll-h-r .blocs-scroll-control-prev{
-	right:60px;
-}
-.horizontal-scroll-h-r.compact-blocs-controls .blocs-scroll-control-prev{
-	right:40px;
 }
 
 /* = Custom Styling
@@ -971,15 +947,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-jbhi-style{
 	width:558px;
 }
-.link-ania-balcer-style{
-	text-decoration:none;
-}
-.link-weiye-bao-style{
-	text-decoration:none;
-}
-.link-haijie-xu-style{
-	text-decoration:none;
-}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1058,21 +1025,22 @@ url("img/07ls.webp") 2x);
 /* = Custom Bric Data
 -------------------------------------------------------------- */
 
+.page-scroll-progress-bar{
+		top:0;
+		left:0;
+		right:0;
+		width:0;
+		position: fixed;
+		z-index: 999999;
+}
+.page-scroll-progress-bar.bottom-edge{
+	top: initial;
+	bottom: 0;
+}
 /* WP Widget Styling */.widget-zone ul{
 	list-style: none;
 	padding: 0;
 }
-
-/* Accesibility Enhancements */
-a:focus-visible,button:focus-visible{outline: 4px solid rgba(13, 110, 253, 0.60)!important;outline-offset: 2px;box-shadow:none!important;}
-
-
-/* = Toggle Visibility
--------------------------------------------------------------- */
-
-.toggled-item{transition: height 350ms ease-in-out, padding 350ms ease-in-out, opacity 350ms ease-in-out;overflow: hidden;}
-.toggled-item-hidden{padding-top:0!important;padding-bottom:0!important;border-top:0!important;border-bottom:0!important;outline:0!important;opacity: 0;}
-.object-hidden{display:none;}
 
 
 /* = Bloc Padding Multi Breakpoint
